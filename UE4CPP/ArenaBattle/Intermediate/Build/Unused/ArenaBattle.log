@@ -1,19 +1,14 @@
-﻿  Performing full C++ include scan (building a new target)
-  Creating makefile for ArenaBattle (no existing makefile)
-  Parsing headers for ArenaBattle
-    Running UnrealHeaderTool "D:\Work\03_Program\Unreal-Study\UE4CPP\ArenaBattle\ArenaBattle.uproject" "D:\Work\03_Program\Unreal-Study\UE4CPP\ArenaBattle\Intermediate\Build\Win64\ArenaBattle\Development\ArenaBattle.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for ArenaBattle in 4.3769536 seconds
-  Performing 9 actions (24 in parallel)
-  [3/9] Resource PCLaunch.rc
-  PCH.UELinkerFixups.cpp
-  SharedPCH.Engine.cpp
-  UELinkerFixups.cpp
-  ArenaBattle.cpp
+﻿  Compiling game modules for hot reload
+  Parsing headers for ArenaBattleEditor
+    Running UnrealHeaderTool "D:\Work\03_Program\Unreal-Study\UE4CPP\ArenaBattle\ArenaBattle.uproject" "D:\Work\03_Program\Unreal-Study\UE4CPP\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for ArenaBattleEditor in 5.8984697 seconds
+  Performing 5 actions (24 in parallel)
   Fountain.cpp
-  ArenaBattle.init.gen.cpp
   Fountain.gen.cpp
-  [9/9] Link ArenaBattle.exe
-     D:\Work\03_Program\Unreal-Study\UE4CPP\ArenaBattle\Binaries\Win64\ArenaBattle.lib 라이브러리 및 D:\Work\03_Program\Unreal-Study\UE4CPP\ArenaBattle\Binaries\Win64\ArenaBattle.exp 개체를 생성하고 있습니다.
-  Deploying ArenaBattle Win64 Development...
-  Prepping UE4 for deployment to Win64
-  Total build time: 37.50 seconds (Local executor: 19.39 seconds)
+  ArenaBattle.init.gen.cpp
+  [4/5] Link UE4Editor-ArenaBattle-5273.dll
+  [5/5] Link UE4Editor-ArenaBattle-5273.lib
+     D:\Work\03_Program\Unreal-Study\UE4CPP\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-5273.suppressed.lib 라이브러리 및 D:\Work\03_Program\Unreal-Study\UE4CPP\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-5273.suppressed.exp 개체를 생성하고 있습니다.
+     D:\Work\03_Program\Unreal-Study\UE4CPP\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-5273.lib 라이브러리 및 D:\Work\03_Program\Unreal-Study\UE4CPP\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-5273.exp 개체를 생성하고 있습니다.
+  Deploying ArenaBattleEditor Win64 Development...
+  Total build time: 10.33 seconds (Local executor: 2.85 seconds)
